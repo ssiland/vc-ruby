@@ -8,17 +8,17 @@ Gem::Specification.new do |spec|
   spec.authors = ["Thomas Carr"]
   spec.email = ["9591402+htcarr3@users.noreply.github.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "A library for issuing and verifying verifiable credentials with Ruby"
+  spec.description = "Create, issue, and verify verifiable credentials with Ruby."
+  spec.homepage = "https://github.com/ssi-land/vc"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/ssi-land/vc"
+  spec.metadata["changelog_uri"] = "https://github.com/ssi-land/vc"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
